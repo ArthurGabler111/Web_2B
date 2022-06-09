@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    margin: 0;
+    padding :0%;
+    box-sizing: border-box;
+    border:none;
+    
+}
+
+.item1{
+height: 50px;
+
+}
+
+.item2{
+    height: 50px;
+    
+}
+
+
+
+header{
+    background-color: white;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+    width: 100%;
+}
+
+.container{
+width: 500px;
+height: 200px;
+margin-left: auto;
+margin-right: auto;
+border-radius: 2px;
+padding: 20px;
+padding-top: 0;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.sobre{
+width: 500px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+padding: 20px;
+padding-top: 0;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+.desc{
+width: 500px;
+height: 100px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 20px;
+padding: 20px;
+padding-top: 0;
+display:flex;
+align-items: center;
+justify-content: center;
+}
+
+#desc{
+padding-bottom: 80px;
+padding-right: 100px;
+}
+
+#sobre{
+padding-bottom: 80px;
+padding-right: 100px;
+}
+
+body{
+background-color:rgb(254, 169, 41); 
+font-family: 'Roboto';
+}
+
+.container input[type=text]{
+padding-right: 100px;  
+}
+
+#foto{
+text-align: center;
+}
+
+.foto{
+height: 200px;
+}
+
+@media (max-width:800px){
+header{
+padding-right: 0;
+width: 100%;
+}
+.logo{
+height: 80px;
+}
+
+
+}
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="logo" src="aseu.png"> 
+        <div><img class="item1" src="globo.png"> <img class="item2" src="ajuda.jpg"></div>
+    </header>
+
+<div id="foto">
+    <img class="foto" src="foto.png">
+</div>
+
+<div class="container">
+    <form action="" method="post" onsubmit= " return validade()"> 
+         <div>
+             <label for="text">Nome:</label> <br>
+             <input id ="nome" type="text" name="text" placeholder="Digite seu email..."/> 
+        </div>
+       
+        <div>
+            <label for="text">Idade:</label> <br>
+            <input id ="idade" type="text" name="text" placeholder="Digite sua idade..."/> 
+       </div>
+     
+       <div>
+          <label for="text">Tempo disponibilizado:</label><br>
+         <input id ="tempo" type="text" name="text" placeholder="Digite o tempo..."/> 
+       </div>
+     
+       <div>
+        <label for="text">Dependentes:</label><br>
+        <input id ="dependente" type="text" name="text" placeholder="Nome dos dependentes..."/> 
+      </div>
+      <div>
+          <input type="submit" value="criar conta" onclick="validade()"/>
+      </div>
+   </form>
+</div>
+
+ <div class="sobre"> 
+     <form> 
+         <div>
+             <label for="text">Sobre:</label><br>
+             <input id ="sobre" type="text" name="text" placeholder="Descrição geral sua..."/>
+         </div>
+     </form>
+ </div>
+ <br>
+ <div class="desc">
+     <form> 
+        <div>
+            <label for="text">Descrição da casa:</label><br>
+            <input id ="desc" type="text" name="text" placeholder="Descrição da sua casa..."/>
+        </div>
+    </form>
+</div>
+
+    
+   
+</body>
+</html>
